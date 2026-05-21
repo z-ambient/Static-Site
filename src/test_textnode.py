@@ -1,7 +1,7 @@
 import unittest
 
 from textnode import TextNode, TextType
-from split_node_delim import split_node_delim
+from inline_markdown import split_node_delim
 
 class TestTextNode(unittest.TestCase):
     def test_eq(self):
