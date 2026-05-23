@@ -7,7 +7,7 @@ from gencontent import generate_page
 dir_path_content = "./content"
 dir_path_templates = "./template.html"
 
-def copy_static_to_public(src, dest):
+def copy_static_to_docs(src, dest):
     
     if os.path.exists(dest):
         shutil.rmtree(dest)
@@ -44,7 +44,7 @@ def generate_pages_recursively(dest_path, template_path, current_dir, basepath):
 
 def main():
     basepath = sys.argv[1] if len(sys.argv) > 1 else "/"
-    copy_static_to_public('static', 'docs')
+    copy_static_to_docs('static', 'docs')
     generate_pages_recursively('docs', dir_path_templates, dir_path_content, basepath)
 
 main()
