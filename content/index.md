@@ -11,7 +11,7 @@ Unlike some traditional energy drinks that focus mostly on caffeine, Ghost Energ
 > Ghost Energy drinks are known for bold flavors, zero sugar, and a colorful energy-drink style.
 
 ## Featured Flavors
-s
+
 - [Blue Raspberry](/flavors/Blue Raspberry/blue-raspberry.html)
 - [Cherry Limeade](/flavors/Cherry Limeade/cherry-limeade.html)
 - [Orange Cream](/flavors/Orange Cream/orange-cream.html)
