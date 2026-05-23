@@ -1,5 +1,6 @@
 import shutil
 import os
+import sys
 
 from gencontent import generate_page
 
@@ -29,20 +30,21 @@ def copy_directory(src, dest):
             print(f"Copying file: {source_path} to {destination_path}")
             shutil.copy(source_path, destination_path)
 
-def generate_pages_recursively(dest_path, template_path, current_dir):
+def generate_pages_recursively(dest_path, template_path, current_dir, basepath):
     for item in os.listdir(current_dir):
         source_path = os.path.join(current_dir, item)
         destination_path = os.path.join(dest_path, item)
 
         if os.path.isdir(source_path):
-            generate_pages_recursively(destination_path, template_path, source_path)
+            generate_pages_recursively(destination_path, template_path, source_path, basepath)
         elif item.endswith(".md"):
             html_path = os.path.join(dest_path, item.replace(".md", ".html"))
-            generate_page(source_path, template_path, html_path)
+            generate_page(source_path, template_path, html_path, basepath)
 
 
 def main():
-    copy_static_to_public('static', 'public')
-    generate_pages_recursively('public', dir_path_templates, dir_path_content)
+    basepath = sys.argv[1] if len(sys.argv) > 1 else "/"
+    copy_static_to_public('static', 'docs')
+    generate_pages_recursively('docs', dir_path_templates, dir_path_content, basepath)
 
 main()
