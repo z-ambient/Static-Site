@@ -1,46 +1,48 @@
-# Tolkien Fan Club
+# Ghost Energy Drinks
 
-![JRR Tolkien sitting](/images/tolkien.png)
+![Ghosts](/images/GhostEnergyMain.png)
 
-Here's the deal, **I like Tolkien**.
+## Overview
 
-> "I am in fact a Hobbit in all but size."
->
-> -- J.R.R. Tolkien
+Ghost Energy is a zero-sugar, carbonated energy drink made by GHOST, a lifestyle and sports nutrition brand known for bright packaging, bold flavors, and collaborations with candy and snack brands. The drink is marketed around three main ideas: energy, focus, and flavor.
 
-## Blog posts
+Unlike some traditional energy drinks that focus mostly on caffeine, Ghost Energy also includes ingredients commonly associated with focus and performance support, such as L-carnitine, taurine, Alpha-GPC, NeuroFactor™, AstraGin®, and B vitamins.
 
-- [Why Glorfindel is More Impressive than Legolas](/blog/glorfindel)
-- [Why Tom Bombadil Was a Mistake](/blog/tom)
-- [The Unparalleled Majesty of "The Lord of the Rings"](/blog/majesty)
+> Ghost Energy drinks are known for bold flavors, zero sugar, and a colorful energy-drink style.
 
-## Reasons I like Tolkien
+## Featured Flavors
+s
+- [Blue Raspberry](/flavors/Blue Raspberry/blue-raspberry.html)
+- [Cherry Limeade](/flavors/Cherry Limeade/cherry-limeade.html)
+- [Orange Cream](/flavors/Orange Cream/orange-cream.html)
+- [Tropical Mango](/flavors/Tropical Mango/tropical-mango.html)
+- [Sour Watermelon](/flavors/Watermelon/warheads-sour-watermelon.html)
 
-- You can spend years studying the legendarium and still not understand its depths
-- It can be enjoyed by children and adults alike
-- Disney _didn't ruin it_ (okay, but Amazon might have)
-- It created an entirely new genre of fantasy
 
-## My favorite characters (in order)
+## What Makes Ghost Energy Different?
 
-1. Gandalf
-2. Bilbo
-3. Sam
-4. Glorfindel
-5. Galadriel
-6. Elrond
-7. Thorin
-8. Sauron
-9. Aragorn
+Ghost Energy stands out because of its strong brand personality and flavor-first approach. Many of its most popular drinks are based on nostalgic candy flavors and collaboration flavors, which gives the brand a different feel from many traditional energy drinks.
 
-Here's what `elflang` looks like (the perfect coding language):
+Some reasons people choose Ghost Energy include:
 
-```
-func main(){
-    fmt.Println("Aiya, Ambar!")
-}
-```
+- Bold, sweet, candy-inspired flavors
+- Zero sugar formula
+- 200 mg of caffeine per can
+- Transparent ingredient callouts
+- No artificial colors
+- A modern fitness and lifestyle brand image
 
-Want to get in touch? [Contact me here](/contact).
+## Who Is Ghost Energy For?
 
-This site was generated with a custom-built [static site generator](https://www.boot.dev/courses/build-static-site-generator-python) from the course on [Boot.dev](https://www.boot.dev).
+Ghost Energy may appeal to people who want:
+
+- A stronger caffeine drink than soda or coffee
+- A zero-sugar energy drink
+- A drink before a workout
+- A focus boost for work or studying
+- A flavorful alternative to traditional energy drinks
+- A candy-inspired drink without sugar
+
+Because each can contains 200 mg of caffeine, it is best for people who **already tolerate caffeine well**.
+
+> Note: This page is for general informational purposes only. Always check the can label for the most accurate nutrition and ingredient information.
